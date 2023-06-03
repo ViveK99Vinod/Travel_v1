@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Palanquin+Dark:wght@500&display=swap');
+
+
+body {
+    background-image: url('./images/slide\ \(4\).png');
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-top: 0;
+    overflow-x: hidden;
+    
+    
+}
+
+h1{
+    font-family: 'Fugaz One', cursive;
+
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000 ;
+    
+    height: 80px;
+    font-family: 'Fugaz One', cursive;
+  }
+  
+
+#home{
+    padding-left: 300px;
+}
+
+#about{
+    margin-top: 550px;
+}
+
+#booking{
+    padding-top: 150px;
+}
+
+#destination{
+    padding-left: 120px;
+    margin-top: 150px;
+}
+
+#serv{
+    padding-left: 250px;
+}
+
+#service i{
+    font-size: 100px;
+    
+}
+
+footer{
+    text-align:  center;
+    margin-top: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    background-color: rgb(241, 147, 23,0.5);
+    
+}
+
+footer i{
+    font-size: 30px;
+    padding: 20px;
+}
+
+#fot{
+    padding-bottom: 50px;
+}
+
+
+@media (max-width: 400px) {
+
+    body {
+        height: 500px;  
+    }
+    
+   #home{
+    padding-left: 0px;
+    font-size: 11px;
+
+    }
+
+    .mt-5 {
+        margin-top: 0rem!important;
+    }
+
+    #about{
+        margin-top: 200px;
+    }
+
+    #about img{
+        width: 350px;
+        height: 250px;
+        
+    }
+
+    .col-3 {
+        width: 100%;
+        font-size: small;
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+
+    .row{
+        display: grid;
+        margin-top: -100px;
+    }
+
+    #booking img{
+        width: 380px;
+        height: 250px;
+    }
+
+    .w-25 {
+        width:80%!important;;
+        padding-left: 50px;
+
+    }
+
+    #booking h1{
+        text-align: center;
+    }
+
+    #destination {
+        padding-left: 20px;
+    }
+
+    #serv {
+        margin-top: 50px;
+        padding-left: 55px;
+        align-items: center;
+    }
+
+    #fot{
+    width: 100%;
+    font-size: 15px;
+
+    }
+
+    #navbar {
+        background-color: rgba(255, 255, 255, );
+      }
+    
+
+  }
